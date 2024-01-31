@@ -1,7 +1,6 @@
 streamlit
 pyvista
-stpyvista
-panel
+stpyvista==0.0.9
 bokeh
 ipywidgets
 ipython
