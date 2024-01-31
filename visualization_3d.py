@@ -1,3 +1,8 @@
+import asyncio
+
+# Ensure an event loop is set for the current thread
+asyncio.set_event_loop(asyncio.new_event_loop())
+
 import pyvista as pv
 pv.start_xvfb()
 import streamlit as st
